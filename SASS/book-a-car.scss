@@ -1,0 +1,84 @@
+@import "../SASS/null.scss";
+
+@import url(https://fonts.googleapis.com/css?family=Inter:regular,500,600,700);
+@import url(https://fonts.googleapis.com/css?family=Plus+Jakarta+Sans:regular,600);
+
+body{
+	background-color: white;
+	display: flex;
+	flex-direction: column;
+	main{
+		padding: 85px;
+		flex: 1 1 auto;
+		margin: 24px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		border-radius: 20px;
+		background-color: rgba(246, 247, 249, 0.92);
+		section{
+			width:503px;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			h3{
+				color: #1A202C;
+				text-align: center;
+				font-family: Inter;
+				font-size: 32px;
+				font-style: normal;
+				font-weight: 600;
+				line-height: 40px;
+				margin-bottom: 16px;
+			}
+			.input{
+				font-family: Inter;
+				font-size: 14px;
+				font-style: normal;
+				font-weight: 500;
+				color: #1A202C;
+				margin-top: 16px;
+				width: 100%;
+				padding: 14px 16px;
+				border-radius: 12px;
+				background: #FFF;
+				& ::placeholder{
+					color: rgba(108, 114, 117, 0.50);
+				}
+			}
+			.Date-time{
+				width: 100%;
+				display: flex;
+				gap: 16px;
+				margin-top: 16px;
+				.inputaa{
+					text-align: center;
+					font-family: Inter;
+					font-size: 14px;
+					font-style: normal;
+					font-weight: 500;
+					color: #1A202C;
+					width: 100%;
+					padding: 14px 16px;
+					border-radius: 12px;
+					background: #FFF;
+				}
+			}
+			.button{
+				display: flex;
+				width: 100%;
+				border-radius: 12px;
+				background: #2752F4;
+				padding: 14px 24px;
+				justify-content: center;
+				align-items: center;
+				margin-top: 24px;
+				font-family: Inter;
+				font-size: 16px;
+				font-style: normal;
+				font-weight: 600;
+				color: #FEFEFE;
+			}
+		}
+	}
+}
