@@ -7,13 +7,6 @@ body{
 	background-color: white;
 	display: flex;
 	flex-direction: column;
-	header{
-		display: flex;
-		justify-content: center;
-		align-items: center;
-		padding: 40px;
-		border-bottom: 1px solid rgba(195, 212, 233, 0.40);
-	}
 	main{
 		padding: 85px;
 		flex: 1 1 auto;
@@ -85,71 +78,6 @@ body{
 				font-style: normal;
 				font-weight: 600;
 				color: #FEFEFE;
-			}
-		}
-	}
-	footer{
-		border-top: 1px solid rgba(195, 212, 233, 0.40);
-		padding: 60px 0px 60px 60px;
-		.footer-top{
-			display: flex;
-			justify-content: space-between;
-			.footer_top-right{
-				max-width: 300px;
-				img{
-					width: 148px;
-					height: 44px;
-				}
-				p{
-					color: rgba(19, 19, 19, 0.60);
-					font-family: Plus Jakarta Sans;
-					font-size: 16px;
-					font-style: normal;
-					font-weight: 500;
-					line-height: 150%;
-				}
-			}
-			table{
-				tr{
-					width: 212;
-					color: rgba(19, 19, 19, 0.60);
-					font-family: Plus Jakarta Sans;
-					font-size: 16px;
-					font-style: normal;
-					font-weight: 500;
-					line-height: 34px;
-				}
-				th{
-					text-align: left;
-					color: #1A202C;
-					width: 212px;
-					font-family: Plus Jakarta Sans;
-					font-size: 20px;
-					font-style: normal;
-					font-weight: 600;
-					padding-bottom: 24px;
-				}
-			}
-		}
-		.shape{
-			background: rgba(19, 19, 19, 0.16);
-			height: 1px;
-			margin: 36px 60px 36px 0px;
-		}
-		.footer-bottom{
-			padding-right: 60px;
-			display: flex;
-			justify-content: space-between;
-			.footer_bottom-p{
-				color:#1A202C;
-				font-family: Plus Jakarta Sans;
-				font-size: 16px;
-				font-style: normal;
-				font-weight: 600;
-			}
-			.footer_bottom-left{
-				display: flex;
-				gap: 60px;
 			}
 		}
 	}
