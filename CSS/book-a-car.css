@@ -1,0 +1,225 @@
+@import url(https://fonts.googleapis.com/css?family=Inter:regular,500,600,700);
+@import url(https://fonts.googleapis.com/css?family=Plus+Jakarta+Sans:regular,600);
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+:focus, :active {
+  outline: none;
+}
+
+a:focus, a:active {
+  outline: none;
+}
+
+nav, footer, header, aside {
+  display: block;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-style: 100%;
+  line-height: 1;
+  font-style: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a, a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-style: inherit;
+  font-weight: 400;
+}
+
+body {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+}
+body header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  border-bottom: 1px solid rgba(195, 212, 233, 0.4);
+}
+body main {
+  padding: 85px;
+  flex: 1 1 auto;
+  margin: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  background-color: rgba(246, 247, 249, 0.92);
+}
+body main section {
+  width: 503px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+body main section h3 {
+  color: #1A202C;
+  text-align: center;
+  font-family: Inter;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 40px;
+  margin-bottom: 16px;
+}
+body main section .input {
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  color: #1A202C;
+  margin-top: 16px;
+  width: 100%;
+  padding: 14px 16px;
+  border-radius: 12px;
+  background: #FFF;
+}
+body main section .input ::-moz-placeholder {
+  color: rgba(108, 114, 117, 0.5);
+}
+body main section .input ::placeholder {
+  color: rgba(108, 114, 117, 0.5);
+}
+body main section .Date-time {
+  width: 100%;
+  display: flex;
+  gap: 16px;
+  margin-top: 16px;
+}
+body main section .Date-time .inputaa {
+  text-align: center;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  color: #1A202C;
+  width: 100%;
+  padding: 14px 16px;
+  border-radius: 12px;
+  background: #FFF;
+}
+body main section .button {
+  display: flex;
+  width: 100%;
+  border-radius: 12px;
+  background: #2752F4;
+  padding: 14px 24px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 24px;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  color: #FEFEFE;
+}
+body footer {
+  border-top: 1px solid rgba(195, 212, 233, 0.4);
+  padding: 60px 0px 60px 60px;
+}
+body footer .footer-top {
+  display: flex;
+  justify-content: space-between;
+}
+body footer .footer-top .footer_top-right {
+  max-width: 300px;
+}
+body footer .footer-top .footer_top-right img {
+  width: 148px;
+  height: 44px;
+}
+body footer .footer-top .footer_top-right p {
+  color: rgba(19, 19, 19, 0.6);
+  font-family: Plus Jakarta Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%;
+}
+body footer .footer-top table tr {
+  width: 212;
+  color: rgba(19, 19, 19, 0.6);
+  font-family: Plus Jakarta Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 34px;
+}
+body footer .footer-top table th {
+  text-align: left;
+  color: #1A202C;
+  width: 212px;
+  font-family: Plus Jakarta Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  padding-bottom: 24px;
+}
+body footer .shape {
+  background: rgba(19, 19, 19, 0.16);
+  height: 1px;
+  margin: 36px 60px 36px 0px;
+}
+body footer .footer-bottom {
+  padding-right: 60px;
+  display: flex;
+  justify-content: space-between;
+}
+body footer .footer-bottom .footer_bottom-p {
+  color: #1A202C;
+  font-family: Plus Jakarta Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+}
+body footer .footer-bottom .footer_bottom-left {
+  display: flex;
+  gap: 60px;
+}
